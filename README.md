@@ -19,7 +19,7 @@
 
 # 아나콘다 설치
 
-- 아래 링크에서 자신의 운영체제에 맞는 Python 3.7 버전 아나콘다 설치파일 다운로드
+- 아래 링크에서 자신의 운영체제에 맞는 Python 3.7 버전 아나콘다 설치파일 다운로드 후 실행
 
   https://www.anaconda.com/distribution/#download-section
 
@@ -27,7 +27,7 @@
 
   
 
-- 설치파일 실행
+- Next 클릭
 
   ![1-1](./images/1-2.png)
 
@@ -37,7 +37,47 @@
 
   ![1-1](./images/1-3.png)
 
-- 
+  
+
+- Just Me (recommended) 선택 후 Next 클릭
+
+  ![1-1](./images/1-4.png)
+
+
+
+- Next 클릭 (만약 설치 경로를 바꾸고 싶다면 바꾼 후 Next 클릭)
+
+  ![1-1](./images/1-5.png)
+
+  
+
+- 두 번째 옵션만 체크하고 Install 클릭
+
+  ![1-1](./images/1-6.png)
+
+  
+
+- 설치
+
+  ![1-1](./images/1-7.png)
+
+  
+
+- Next 클릭
+
+  ![1-1](./images/1-8.png)
+
+  
+
+- Next 클릭
+
+  ![1-1](./images/1-9.png)
+
+
+
+- 두 옵션 모두 체크 해제 후 Finish 클릭
+
+  ![1-1](./images/1-10.png)
 
 
 
