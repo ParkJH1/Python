@@ -1,4 +1,4 @@
-# Python 개발 환경 구축 가이드
+# 파이썬 개발 환경 구축 가이드
 
 ### 목차
 
@@ -7,9 +7,11 @@
 3. [아나콘다 환경 설정](#아나콘다-환경-설정)
    1. 아나콘다 프롬프트 실행
    2. 파이썬 환경 생성
-   3. 파이썬 환경 접속
-   4. 파이썬 패키지 설치
-   5. 파이썬 환경 삭제
+   3. 파이썬 환경 목록
+   4. 파이썬 환경 접속
+   5. 파이썬 패키지 설치
+   6. 파이썬 환경 접속 해제
+   7. 파이썬 환경 삭제
 4. [파이참 환경 설정](#파이참-환경-설정)
    1. 파이참 프로젝트 생성
    2. 파이참 소스파일 생성 및 실행
@@ -23,61 +25,61 @@
 
   https://www.anaconda.com/distribution/#download-section
 
-  ![1-1](./images/1-1.png)
+  ![](./images/1-1.png)
 
   
 
 - Next 클릭
 
-  ![1-1](./images/1-2.png)
+  ![](./images/1-2.png)
 
   
 
 - I Agree 클릭
 
-  ![1-1](./images/1-3.png)
+  ![](./images/1-3.png)
 
   
 
 - Just Me (recommended) 선택 후 Next 클릭
 
-  ![1-1](./images/1-4.png)
+  ![](./images/1-4.png)
 
 
 
 - Next 클릭 (만약 설치 경로를 바꾸고 싶다면 바꾼 후 Next 클릭)
 
-  ![1-1](./images/1-5.png)
+  ![](./images/1-5.png)
 
   
 
 - 두 번째 옵션만 체크하고 Install 클릭
 
-  ![1-1](./images/1-6.png)
+  ![](./images/1-6.png)
 
   
 
 - 설치
 
-  ![1-1](./images/1-7.png)
+  ![](./images/1-7.png)
 
   
 
 - Next 클릭
 
-  ![1-1](./images/1-8.png)
+  ![](./images/1-8.png)
 
   
 
 - Next 클릭
 
-  ![1-1](./images/1-9.png)
+  ![](./images/1-9.png)
 
 
 
 - 두 옵션 모두 체크 해제 후 Finish 클릭
 
-  ![1-1](./images/1-10.png)
+  ![](./images/1-10.png)
 
 
 
@@ -89,43 +91,43 @@
 
   https://www.jetbrains.com/pycharm/download/
 
-  ![1-1](./images/2-1.png)
+  ![](./images/2-1.png)
 
   
 
 - Next 클릭
 
-  ![1-1](./images/2-2.png)
+  ![](./images/2-2.png)
 
   
 
 - Next 클릭 (만약 설치 경로를 바꾸고 싶다면 바꾼 후 Next 클릭)
 
-  ![1-1](./images/2-3.png)
+  ![](./images/2-3.png)
 
   
 
 - 전부 체크 해제 후 Next 클릭
 
-  ![1-1](./images/2-4.png)
+  ![](./images/2-4.png)
 
   
 
 - Install 클릭
 
-  ![1-1](./images/2-5.png)
+  ![](./images/2-5.png)
 
   
 
 - 설치
 
-  ![1-1](./images/2-6.png)
+  ![](./images/2-6.png)
 
   
 
 - Finish 클릭
 
-  ![1-1](./images/2-7.png)
+  ![](./images/2-7.png)
 
 
 
@@ -135,9 +137,43 @@
 
 ## 아나콘다 프롬프트 실행
 
-##### 윈도우 환경
+- 시작메뉴 - Anaconda3 (64-bit) - Anaconda Prompt (Anaconda3)
 
-- 시작메뉴 - Anaconda3 -  
+  ![](./images/3-1.png)
+
+  
+
+- Anaconda3 Prompt 실행화면
+
+  ![](./images/3-2.png)
+
+  
+
+- Python 환경 생성(아래 명령어 실행)
+
+  ```
+  (base) > conda create -n python-env python=3.6
+  ```
+
+  ![](./images/3-3.png)
+
+  
+
+- y 입력 후 엔터
+
+  ![](./images/3-4.png)
+
+  
+
+- 생성된 환경 목록 확인(아래 명령어 실행)
+
+   ```
+  (base) > conda env list
+   ```
+
+  ![](./images/3-5.png)
+
+  목록에 python-env가 보이면 정상
 
 
 
