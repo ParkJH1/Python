@@ -164,10 +164,44 @@
 
    ![](./images/3-5.png)
 
-   목록에 python-env가 보이면 정상
+   목록에 python-env가 보이면 완료
 
 
 
 # 파이참 환경 설정
 
-- 
+1. 파이참 실행
+
+  초기 실행시 테마 선택화면에서 테마 선택 후 Skip 버튼 클릭
+
+  ![](./images/4-1.png)
+
+
+
+2. Create New Project 클릭
+
+  ![](./images/4-2-.png)
+
+  
+
+3. Create 클릭
+
+   ![](./images/4-3.png)
+
+   
+
+4. 프로젝트 폴더 우클릭 - New - Python File 클릭 후 파일이름 써서 생성
+
+   ![](./images/4-4.png)
+
+   
+
+5. 아래 코드 작성 후 ctrl + shift + f10 키 눌러서 실행
+
+   ```
+   print('hello python')
+   ```
+
+   ![](./images/4-5.png)
+
+   hello python 이 잘 나오면 완료
