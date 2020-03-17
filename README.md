@@ -6,6 +6,8 @@
 2. [파이참 설치](#파이참-설치)
 3. [아나콘다 환경 설정](#아나콘다-환경-설정)
 4. [파이참 환경 설정](#파이참-환경-설정)
+5. [파이참 아나콘다 환경 연동](#파이참-아나콘다-환경-연동)
+6. [아나콘다 환경에 라이브러리 설치](#아나콘다-환경에-라이브러리-설치)
 
 
 
@@ -125,7 +127,7 @@
 
 # 아나콘다 환경 설정
 
-1. 시작메뉴 - Anaconda3 (64-bit) - Anaconda Prompt (Anaconda3)
+1. 시작메뉴 → Anaconda3 (64-bit) → Anaconda Prompt (Anaconda3) 실행
 
    ![](./images/3-1.png)
 
@@ -202,3 +204,119 @@
    ![](./images/4-5.png)
 
    hello python 이 잘 나오면 완료
+
+
+
+# 파이참 아나콘다 환경 연동
+
+1. 시작메뉴 → Anaconda3 (64-bit) → Anaconda Prompt (Anaconda3) 실행
+
+   ![](./images/3-1.png)
+
+
+
+2. 생성된 환경 목록 확인(아래 명령어 실행) 후 연동할 아나콘다 환경 경로 확인
+
+    ```
+     (base) > conda env list
+    ```
+
+   ![](./images/5-2.png)
+
+   연동할 아나콘다 환경 옆에 경로 복사
+
+
+
+3. 파이참 실행
+
+   ![](./images/5-3.png)
+
+
+
+4. 상단 File 메뉴 → Settings 열기
+
+   ![](./images/5-4.png)
+
+
+
+5. Project: (프로젝트명) → Project Interpreter 열기
+
+   ![](./images/5-5.png)
+
+
+
+6. 상단에 톱니바퀴 → Show All
+
+   ![](./images/5-6.png)
+
+
+
+7. 오른쪽 +버튼 누르기(목록에 이미 원하는 환경이 있으면 7 ~ 9 생략)
+
+   ![](./images/5-7.png)
+
+
+
+8. Existing environment(2번째) 선택 후 오른쪽 끝에 보이는 ... 버튼 누르기
+
+   ![](./images/5-8.png)
+
+
+
+9. 2번 과정에서 복사한 경로 붙여넣고 그 폴더안에 있는 python.exe 선택 후 OK버튼 누르기
+
+   ![](./images/5-9.png)
+
+
+
+10. 열려있는 2개 창 모두 OK버튼으로 닫기
+
+   ![](./images/5-10.png)
+
+
+
+# 아나콘다 환경에 라이브러리 설치
+
+1. 시작메뉴 → Anaconda3 (64-bit) → Anaconda Prompt (Anaconda3) 실행
+
+   ![](./images/3-1.png)
+
+
+
+2. 생성된 환경 목록 확인(아래 명령어 실행) 후 연동할 아나콘다 환경 이름 확인
+
+    ```
+     (base) > conda env list
+    ```
+
+   ![](./images/6-2.png)
+
+   python-env로 튜토리얼 진행
+
+
+
+3. 아나콘다 환경 활성화(아래 명령어 실행)
+
+    ```
+     (base) > conda activate python-env
+    ```
+
+   ![](./images/6-3.png)
+
+   명령줄 맨 앞이 (python-env)로 바뀌었으면 완료
+
+
+
+4. 원하는 라이브러리 설치 명령어 실행
+
+
+
+5. 아나콘다 환경 비활성화(아래 명령어 실행)
+
+    ```
+     (base) > conda deactivate
+    ```
+
+   ![](./images/6-5.png)
+
+   명령줄 맨 앞이 (base)로 바뀌었으면 완료
