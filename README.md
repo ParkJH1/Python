@@ -201,23 +201,13 @@
 
    ![](./images/4-3.png)
 
+
+
+4. 파이참 실행
+
+   ![](./images/5-3.png)
    
-
-4. 프로젝트 폴더 우클릭 - New - Python File 클릭 후 파일이름 써서 생성
-
-   ![](./images/4-4.png)
-
-   
-
-5. 아래 코드 작성 후 ctrl + shift + f10 키 눌러서 실행
-
-   ```
-   print('hello python')
-   ```
-
-   ![](./images/4-5.png)
-
-   hello python 이 잘 나오면 완료
+   이 화면이 나오면 완료
 
 
 
@@ -238,7 +228,7 @@
 2. 생성된 환경 목록 확인(아래 명령어 실행) 후 연동할 아나콘다 환경 경로 확인
 
     ```
-     (base) > conda env list
+    (base) > conda env list
     ```
 
    ![](./images/5-2.png)
@@ -295,6 +285,24 @@
 
 
 
+11. 프로젝트 폴더 우클릭 - New - Python File 클릭 후 파일이름 써서 생성
+
+   ![img](./images/4-4.png)
+
+
+
+12. 아래 코드 작성 후 ctrl + shift + f10 키 눌러서 실행
+
+    ```
+    print('hello python')
+    ```
+    
+    ![img](./images/4-5.png)
+    
+    hello python 이 잘 나오면 완료
+    
+    
+
 [목차로 돌아가기](#목차)
 
 
@@ -312,7 +320,7 @@
 2. 생성된 환경 목록 확인(아래 명령어 실행) 후 연동할 아나콘다 환경 이름 확인
 
     ```
-     (base) > conda env list
+    (base) > conda env list
     ```
 
    ![](./images/6-2.png)
@@ -324,7 +332,7 @@
 3. 아나콘다 환경 활성화(아래 명령어 실행)
 
     ```
-     (base) > conda activate python-env
+    (base) > conda activate python-env
     ```
 
    ![](./images/6-3.png)
@@ -340,7 +348,7 @@
 5. 아나콘다 환경 비활성화(아래 명령어 실행)
 
     ```
-     (base) > conda deactivate
+    (base) > conda deactivate
     ```
 
    ![](./images/6-5.png)
