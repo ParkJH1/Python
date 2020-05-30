@@ -17,7 +17,7 @@
 
 1. 아래 링크에서 자신의 운영체제에 맞는 Python 3.7 버전 아나콘다 설치파일 다운로드 후 실행
 
-   https://www.anaconda.com/distribution/#download-section
+   https://www.anaconda.com/products/individual#Downloads
 
    ![](./images/1-1.png)
 
